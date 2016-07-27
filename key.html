@@ -5,25 +5,25 @@
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-          charset="utf-8"/>
-    <title>Index</title>
+          charset="utf-8"
+    />
+    <title>Key</title>
 </head>
-
 <body>
 <header>
     <nav>
         <div class="nav-wrapper teal darken-2">
-            <a href="index.html" class="brand-logo" style="font-size:1.5em;padding-left:1em">南京邮电大学xxxxx比赛
+            <a href="#" class="brand-logo" style="font-size:1.5em;padding-left:1em">南京邮电大学xxxxx比赛
             </a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa fa-bars"
                                                                                 style="position:relative;margin-left:10px"></i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="exam.html">试题</a></li>
+                <li><a href="#">试题</a></li>
                 <li><a href="#">比赛规则</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="profile.html">个人中心</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">个人中心</a></li>
                 <li><a href="#">退出</a></li>
-                <li><a href="index.html">登录</a></li>
+                <li><a href="#">登录</a></li>
                 <li><a href="register.html">注册</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
@@ -41,27 +41,15 @@
 <main>
     <div class="container">
         <div id="title">
-            <h5>欢迎参加南京邮电大学</h5>
-            <h5>xxxxx比赛</h5>
+            <h5>Key</h5>
         </div>
         <form>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="username" type="text" class="validate">
-                    <label for="username">Username</label>
-                </div>
-            </div>
             <div class="row" style="margin-top:20px">
                 <div class="input-field col s12">
                     <input id="password" type="password" class="validate">
-                    <label for="password">Password</label>
+                    <label for="password">Key</label>
                 </div>
             </div>
-            <p>
-                <input type="checkbox" id="test5"/>
-                <label for="test5">Remember me</label>
-            </p>
-
             <div class="submit">
                 <button class="btn waves-effect waves-light" type="submit" name="action"><i class="fa fa-check"></i>
                 </button>
@@ -69,9 +57,13 @@
         </form>
     </div>
 </main>
+
 <script type="text/javascript" src="js/jquery2.1.1.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script>
+    $(document).ready(function () {
+        $('select').material_select();
+    });
     $(".button-collapse").sideNav();
 </script>
 </body>

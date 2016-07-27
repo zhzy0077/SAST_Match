@@ -2,6 +2,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+      font-family: 微软雅黑;
   }
 
   main {
@@ -16,7 +17,7 @@ form{
   position: relative;
   width: 45%;
   margin: 0 auto;
-  margin-top:30px;
+  margin-top:20px;
 }
 .submit{
   position: relative;
@@ -26,3 +27,34 @@ form{
 .input-field{
   margin-top: 0;
 }
+.side-nav{
+  width: auto;
+}
+.pagination>li.active{
+  background-color:#004d40 ;
+}
+.pagination>li.no-finished{
+  background-color:#f9fbe7;
+}
+.pagination>li.finished{
+  background-color:#4db6ac;
+}
+  .pagination>li{
+    margin: 7px;
+  }
+  .examcard{
+      margin-bottom: 0;
+  }
+  .card-pad-1{
+      padding-top: 8px;
+  }
+  .card-pad-2{
+      padding-top: 8px;
+      padding-bottom: 2px;
+  }
+  .btn-t{
+      padding:0 1.3rem;
+  }
+  #info{
+      font-size: 18px;
+  }
