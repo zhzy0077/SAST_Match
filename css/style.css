@@ -58,3 +58,7 @@ form{
   #info{
       font-size: 18px;
   }
+  #infomation{
+      text-align: center;
+      position: relative;
+  }

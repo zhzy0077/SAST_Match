@@ -44,33 +44,29 @@
             <h5>欢迎参加南京邮电大学</h5>
             <h5>xxxxx比赛</h5>
         </div>
-        <div class="row">
-            <div class="col s12 m2">
-            </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/sast.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p>扫描二维码，关注“南邮校科协”官方微信，获取比赛资讯。</p>
-                    </div>
+        <form>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="username" type="text" class="validate">
+                    <label for="username">Username</label>
                 </div>
             </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/group.png">
-                    </div>
+            <div class="row" style="margin-top:20px">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
                 </div>
             </div>
-        </div>
-        <div id="infomation">
-            <h5>点击<a href="register.html">注册</a>报名参加本次比赛</h5>
-        </div>
-    </div>
-    <div>
+            <p>
+                <input type="checkbox" id="test5"/>
+                <label for="test5">Remember me</label>
+            </p>
 
+            <div class="submit">
+                <button class="btn waves-effect waves-light" type="submit" name="action"><i class="fa fa-check"></i>
+                </button>
+            </div>
+        </form>
     </div>
 </main>
 <script type="text/javascript" src="js/jquery2.1.1.js"></script>
