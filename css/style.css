@@ -13,7 +13,7 @@
   position: relative;
   margin-top: 2em;
 }
-form{
+.container>form{
   position: relative;
   width: 45%;
   margin: 0 auto;
